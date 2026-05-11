@@ -1,52 +1,51 @@
-# Chess-Game
-Chess Game in C++ with SFML
+# Chess Game
 
-A simple chess game built using C++ and SFML, demonstrating Object-Oriented Programming concepts and basic chess mechanics.
+Console/GUI-based Chess Game in C++ using SFML:
 
-Features
-Graphical chess board using SFML
-Turn-based gameplay
-Valid move highlighting
-Piece movement validation
-Capture system
-OOP-based design
+* Classic chess gameplay
+* Graphical chess board and pieces
+* Valid move highlighting
+* Turn-based gameplay
+* Piece capture system
+* Object-Oriented design using inheritance and polymorphism
 
-Supported pieces:
+## Screenshots
 
-Pawn
-Rook
-Knight
-Bishop
-Queen
-King
-Technologies
-C++
-SFML
-Project Structure
-ChessGame/
-├── Board.h
-├── Board.cpp
-├── Game.h
-├── main.cpp
-├── images/
-└── README.md
-Setup
-Install SFML:
+<img width="602" height="658" alt="image" src="https://github.com/user-attachments/assets/2185bf9a-73d8-4a39-ac20-e1a6bc362c70" />
 
-SFML Official Website
+<img width="602" height="644" alt="image" src="https://github.com/user-attachments/assets/f782ac58-0fbb-4ec7-b789-167426339913" />
 
-Link SFML libraries in Visual Studio:
+
+## Getting Started
+
+### Clone the Repository
+
+```bash id="stb8ii"
+git clone https://github.com/hamza-fastian/chess-game.git
+```
+
+### Install SFML
+
+Download and install SFML from:
+
+[SFML Official Website](https://www.sfml-dev.org/?utm_source=chatgpt.com)
+
+### Build the Project
+
+Compile and link with SFML libraries.
+
+Example (Visual Studio libraries):
+
+```text id="w77n34"
 sfml-graphics.lib
 sfml-window.lib
 sfml-system.lib
-Run the project.
-Controls
-Action	Input
-Select Piece	Left Click
-Move Piece	Left Click
-Future Improvements
-Check & Checkmate
-Castling
-Pawn Promotion
-AI Opponent
-Move History
+```
+
+### Run the Game
+
+Run the executable from Visual Studio or terminal.
+
+```bash id="v46qfk"
+./chess_game
+```
